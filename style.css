@@ -67,7 +67,9 @@ img {
   display: block;
   margin-bottom: 1rem;
   background: #222;
+  object-fit: cover;
 }
+
 
 .project {
   margin-bottom: 1.5rem;
@@ -86,7 +88,7 @@ li::before {
 footer {
   text-align: center;
   padding: 1rem;
-  background: rgba(0, 30, 30, 0.8);
+  background: rgba(1, 76, 76, 0.8);
   color: #aaa;
   z-index: 1;
   position: relative;
