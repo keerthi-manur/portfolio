@@ -72,6 +72,16 @@ img {
   margin-bottom: 1.5rem;
 }
 
+li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+li::before {
+  margin-right: 0.5rem;
+}
+
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -81,4 +91,3 @@ footer {
   position: relative;
 }
 
-/*testing git*/
