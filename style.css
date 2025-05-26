@@ -75,12 +75,12 @@ body {
 #stars::before {
   content: '';
   position: absolute;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(white 1px, transparent 1px);
-  background-size: 3px 3px;
-  animation: moveStars 60s linear infinite;
-  opacity: 0.2;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(white 1px, transparent 2px);
+  background-size: 6px 6px;   /* Fewer stars (was 3px 3px) */
+  animation: moveStars 100s linear infinite; /* Slower drift */
+  opacity: 0.1;               /* Softer visibility */
 }
 
 @keyframes moveStars {
